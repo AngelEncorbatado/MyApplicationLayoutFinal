@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/verderRadiactivo"
+    android:weightSum="4">
+/*fijemonos que si hacemos la suma de todos los bordes
+    se cumplen las especificaciones planteadas
+     12.5 - 2,5 = 10 dp marco negro, res/drawable bordes.xml*/
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:background="@drawable/bordes"
+        android:orientation="horizontal"
+        android:padding="12.5dp"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2.5dp"
+            android:layout_weight="1"
+            android:background="@color/rojo"
+            android:text="rojo"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/blanco" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2.5dp"
+            android:layout_weight="1"
+            android:background="@color/verde"
+            android:text="verde"
+            android:textSize="30sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2.5dp"
+            android:layout_weight="1"
+            android:background="@color/azul"
+            android:text="azul"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/blanco" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2.5dp"
+            android:layout_weight="1"
+            android:background="@color/amarillo"
+            android:text="amarillo"
+            android:textSize="30sp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="columna_uno"
+        android:background="@color/rosaRadiactivo"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/blanco"
+        android:textSize="40sp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="columna_dos"
+        android:background="@color/rosaRadiactivo"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/blanco"
+        android:textSize="40sp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="columna_tres"
+        android:background="@color/rosaRadiactivo"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/blanco"
+        android:textSize="40sp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="columna_cuatro"
+        android:background="@color/rosaRadiactivo"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/blanco"
+        android:textSize="40sp"
+        android:gravity="center_vertical"/>
+
+
+</LinearLayout>
